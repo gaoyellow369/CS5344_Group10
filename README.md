@@ -1,22 +1,22 @@
 # CS5344_Group10
 
-#### Environment profile
+## Environment profile
 
 environment.txt and environment.yml
 
-#### dataset
+## dataset
 
 input_attributes.csv : input feature dataset
 
 labels.csv : target label dataset
 
-#### timeseries regression
+## timeseries regression
 
 baseline.py : baseline model for timeseries regression
 
 timeseries.py : define and test four models, which are LightGBM model based on time series, XGBoost model based on time series, two stacked models based on time series
 
-#### feature selection
+## feature selection
 
 SeleckKbest.py : the baseline of feature selection
 
@@ -24,7 +24,7 @@ featureselection.py : Simulated annealing feature selection algorithm with initi
 
 print_featureselection.py : Used to draw the printed result of the previous feature selection into an intuitive image
 
-#### other
+## other
 
 normalization.py : Used to verify the performance of different normalized strategies
 
